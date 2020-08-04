@@ -59,6 +59,12 @@ python joint_train.py --train-manifest-list data/manifests/cv-valid-train_manife
 --num-dec-layers 4 --num-heads 8 --dim-model 512 --dim-key 64 --dim-value 64 --dim-input 5120 --dim-inner 512 --dim-emb 512 --early-stop cer,200 --src-max-len 5000 --tgt-max-len 2500 --evaluate-every 10000 \
 --epochs 10000000 --sample-rate 16000 --train-partition-list 1 1 1
 ```
+- LibriSpeech_NER
+```
+train_ZH_EN_pre-train.sh
+test_ZH_EN.sh
+```
+
 
 ## Bug Report
-Feel free to create an issue or send email to giwinata@connect.ust.hk
+Feel free to create an issue or send email to sungyihsun@gmail.com
